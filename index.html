@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    
+    Une boucle est un constructeur de code qui permet de répéter une série d'instructions à plusieurs reprises. En JavaScript, il existe plusieurs types de boucles : for, while, do...while et for...of.
+
+    Voici comment elles fonctionnent :
+    
+    -La boucle for est utilisée pour répéter une série d'instructions un nombre défini de fois. Elle possède trois parties : une initialisation, une condition et une incrémentation. Par exemple :
+    
+    <!-- ========== -->
+    for (let i = 0; i < 10; i++) {
+      console.log(i);
+    }
+    <!-- ========== -->
+    Cette boucle affichera les nombres de 0 à 9 dans la console.
+    
+    
+    <!-- ======================================================================================================================== -->
+    -La boucle while est utilisée pour répéter une série d'instructions tant qu'une condition est vraie. Par exemple :
+    
+    <!-- ========== -->
+    let i = 0;
+    while (i < 10) {
+      console.log(i);
+      i++;
+    }
+    <!-- ========== -->
+    Cette boucle affichera également les nombres de 0 à 9 dans la console.
+    
+    <!-- ======================================================================================================================== -->
+    
+    La boucle do...while est similaire à la boucle while, mais elle exécute au moins une fois les instructions avant de vérifier la condition. Par exemple :
+    
+    <!-- ========== -->
+    let i = 0;
+    do {
+      console.log(i);
+      i++;
+    } while (i < 10);
+    <!-- ========== -->
+    Cette boucle affichera également les nombres de 0 à 9 dans la console.
+    
+    
+    <!-- Attention c'est pas forcement a montrer -->
+    
+    <!-- ======================================================================================================================== -->
+    
+    La boucle for...of est utilisée pour itérer sur les éléments d'un itérable, comme un tableau ou une chaîne de caractères. Par exemple :
+    
+    <!-- ========== -->
+    
+    const numbers = [1, 2, 3, 4, 5];
+    for (const number of numbers) {
+      console.log(number);
+    }
+    <!-- ========== -->
+    
+    Cette boucle affichera les nombres 1, 2, 3, 4 et 5 dans la console.
+    
+    Il est important de se souvenir de mettre une condition d'arrêt dans les boucles pour éviter de créer une boucle infinie.
+    
+    J'espère que cette explication vous a été utile. Si vous avez d'autres questions, n'hésitez pas à me poser.
+    
+    
+    
+    
+    
+    
+    
+
+</body>
+<script src="public/script/script.js"></script>
+</html>
