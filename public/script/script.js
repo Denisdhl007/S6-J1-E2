@@ -1,4 +1,4 @@
-/*
+
 
 // EXO1
 // Créer une function [reverseNumber] qui retourne une série de nombre à l'envers (exemple si j'entre 851 elle me retourne 158)
@@ -110,13 +110,6 @@ logIn();
 
 
 
-
-
-
-
-
-
-
 // Écrivez une fonction qui prend un nombre en entrée et qui renvoie la somme des n premiers nombres naturels.
 // Par exemple, si on appelle la fonction avec 5 en entrée, elle devra renvoyer 15 (1 + 2 + 3 + 4 + 5).
 
@@ -130,7 +123,6 @@ function sum(n){
   alert(result);
 }
 sum();
-*/
 
 
 
@@ -138,7 +130,7 @@ sum();
 // Un nombre premier est un nombre qui n'est divisible que par 1 et par lui-même.
 // Par exemple, 2 est un nombre premier, alors que 4 ne l'est pas (il est divisible par 2).
 
-/*
+
 // COMMENT AMELIORER TEST 1??
 // Test 1
 function nbrPrem(n){
@@ -189,17 +181,16 @@ tri(["girafe", "chien", "chat", "oiseau"]);
 // Écrivez une fonction qui prend un nombre en entrée et qui renvoie la somme des chiffres de ce nombre.
 // Par exemple, si on appelle la fonction avec 123 en entrée, elle devra renvoyer 6 (1 + 2 + 3).
 
+// J'ai besoin d'aide pour cellui-ci.
 
 function nbre (n){
   n = prompt("Entrez un nombre");
-  
+
 
 }
-
 nbre();
 
 
-*/
 
 // Écrivez une fonction qui prend un tableau de nombres en entrée et qui renvoie vrai si le tableau est un palindrome (c'est-à-dire si le tableau est le même lorsqu'on le lit de droite à gauche ou de gauche à droite), et faux sinon.
 // Par exemple, si on appelle la fonction avec [1, 2, 3, 2, 1] en entrée, elle devra renvoyer vrai. Si on l'appelle avec [1, 2, 3, 4, 5] en entrée, elle devra renvoyer faux.
